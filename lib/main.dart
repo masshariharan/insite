@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
-import 'package:insite/services/graphql_config.dart';
-
 
 import 'utils/colors.dart';
 import 'screens/fleet_view.dart';
