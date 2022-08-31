@@ -54,12 +54,6 @@ class GraphQLConfiguration {
 
     FleetModel fleetData=FleetModel.fromJson(queryResult.data!);
 
-    //print(response.data!['fleetSummary']['fleetRecords'][0]['productFamily']);
-
-   // print(queryResult.data!['fleetSummary']['fleetRecords'][0]['model']);
-
-   // print(fleetData.fleetDataList![0].model);
-
     return fleetData.fleetDataList;
 
   }
